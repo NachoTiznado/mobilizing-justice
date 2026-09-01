@@ -56,7 +56,7 @@
 		In Canada, household income shapes nearly every aspect of how people get around. What modes people can afford, how far they can realistically travel, and whether transportation opens up opportunities or closes them off all vary significantly by income.
 	</p>
 	<p>
-		These findings come from the <a href="https://mobilizingjustice.ca/working-groups/national-survey-of-transport-poverty-and-trse/" target="_blank">Mobilizing Justice National Survey on Transport Poverty</a>. Across Canada, lower-income households face compounding disadvantages: less access to cars, affordability impacting travel choices, and transportation barriers reducing employment opportunities.
+		These findings come from the <a href="https://mobilizingjustice.ca/working-groups/national-survey-of-transport-poverty-and-trse/" target="_blank">Mobilizing Justice National Survey on Transport Poverty</a>. Across Canada, lower-income households face compounding disadvantages: less access to cars, affordability impacting travel choices, and transportation barriers limiting access to employment opportunities.
 	</p>
 
 </div>
@@ -76,10 +76,10 @@
 		label2="of individuals living in high-income households do not own a private vehicle"
 		backText="
 			<p>
-				31% of low-income individuals do not own a private vehicle, compared to fewer than 3% of high-income individuals. Without access to a car, daily travel depends heavily on transit and active modes. As a result, low-income individuals walk and take public transit to work at considerably higher rates than middle- and high-income groups, and report driving much less.
+				31% of individuals living in low-income households do not own a private vehicle, compared to fewer than 3% of of individuals living in high-income households. Without access to a car, daily travel depends heavily on transit and active modes. As a result, individuals living in low-income households walk and take public transit to work at considerably higher rates than middle- and high-income groups, and report driving much less.
 			</p>
 			<p>
-				Fewer low-income individuals reported never using a taxi or ride-hailing to work, nearly 6 percentage points lower than the other two income groups. This may be attributed to lower car ownership among low-income populations and reliance on public transit, which can be unreliable at times, or active transportation, which might be inconvenient during adverse weather conditions.
+				Fewer individuals living in low-income households reported never using a taxi or ride-hailing to work, nearly 6 percentage points lower than the other two income groups. This may be attributed to lower car ownership among low-income populations and reliance on public transit, which can be unreliable at times, or active transportation, which might be inconvenient during adverse weather conditions.
 			</p>
 		"
 	/>
@@ -89,7 +89,7 @@
 		context="Low-income households are more likely to use public transit"
 		groups={[
 			{
-				label: "Take public transit to work 5× per week (%)",
+				label: "Take public transit to work 5 times per week (%)",
 				bars: [
 					{ label: "Individuals in low-income* households", value: 15 },
 					{ label: "Individuals in high-income* households", value: 4 }
@@ -105,13 +105,13 @@
 		]}
 		backText="
 			<p>
-				15% of low-income individuals take public transit to work five times a week, compared to 4% of high-income individuals, a gap of 11 percentage points. Transit pass ownership follows the same pattern, at 22% among low-income households versus 15% among high-income households.
+				15% of individuals living in low-income households take public transit to work five times a week, compared to 4% of individuals living in high-income households, a gap of 11 percentage points. Transit pass ownership follows the same pattern, at 22% among low-income households versus 15% among high-income households.
 			</p>
 			<p>
 				These patterns highlight the greater dependence of low-income individuals on public transit for everyday mobility, suggesting the importance of affordable, reliable, and accessible public transit.
 			</p>
 			<p>
-				Low-income individuals also generally showed more positive perceptions of public transit compared to high-income individuals, who showed a greater inclination towards driving. The differences are modest, but the direction is consistent.
+				Individuals living in low-income households also generally showed more positive perceptions of public transit compared to high-income counterparts, who showed a greater inclination towards driving. The differences are modest, but the direction is consistent.
 			</p>
 		"
 	/>
@@ -121,15 +121,15 @@
 		context="Transport barriers are costing low-income residents job opportunities"
 		sharedLabel="Respondents that agreed or strongly agreed that they have declined employment opportunities due to their transport situation (%)"
 		stats={[
-			{ stat: 35, color: "var(--mjYellow)", label: "Low-income* respondents" },
-			{ stat: 21, color: "var(--mjGreen)",  label: "High-income* respondents" }
+			{ stat: 35, color: "var(--mjYellow)", label: "Individuals in low-income* households" },
+			{ stat: 21, color: "var(--mjGreen)",  label: "Individuals in high-income* households" }
 		]}
 		backText="
 			<p>
-				35% of low-income individuals agreed or strongly agreed that their transport situation has led them to decline employment opportunities, compared to 21% of high-income individuals.
+				35% of individuals living in low-income households agreed or strongly agreed that their transport situation has led them to decline employment opportunities, compared to 21% of individuals living in high-income households.
 			</p>
 			<p>
-				Similar patterns were found for educational opportunities. Low-income respondents were more likely to report not pursuing education due to transport barriers. Reduced educational participation may limit access to better employment over time, suggesting transport disadvantage can compound across generations.
+				Similar patterns were found for educational opportunities. Individuals living in low-income households were more likely to report not pursuing education due to transport barriers. Reduced educational participation may limit access to better employment over time, suggesting transport disadvantage can compound across generations.
 			</p>
 			<p>
 				It is also worth noting that this figure may underestimate the true impact. Low-income individuals who have grown accustomed to recurring transport constraints may no longer consciously register them as barriers, even though these challenges may still limit where they can go and what opportunities they can access.
@@ -142,15 +142,15 @@
 		context="Affordability is the main reason low-income individuals can't travel the way they prefer"
 		sharedLabel="Respondents that identified affordability as a reason they do not use their preferred mode of transport (%)"
 		stats={[
-			{ stat: "17%", color: "var(--mjYellow)", label: "Low-income* residents" },
-			{ stat: "4%",  color: "var(--mjGreen)",  label: "High-income* residents" }
+			{ stat: "17%", color: "var(--mjYellow)", label: "Individuals in low-income* households" },
+			{ stat: "4%",  color: "var(--mjGreen)",  label: "Individuals in high-income* households" }
 		]}
 		backText="
 			<p>
-				17% of low-income individuals identified affordability as a reason they do not use their preferred mode of transport, compared to just 4% of high-income individuals. Low-income individuals also reported a stronger sense of being forced to rely on active and public transportation, with score differences of 6 to 10 points compared to other income groups.
+				17% of individuals living in low-income households identified affordability as a reason they do not use their preferred mode of transport, compared to just 4% of individuals living in high-income households. Individuals living in low-income households also reported a stronger sense of being forced to rely on active and public transportation, with score differences of 6 to 10 points compared to other income groups.
 			</p>
 			<p>
-				Among those who owned a vehicle, perceptions of forced car ownership were nearly identical across income groups. The proportion with near-neutral perceptions of car ownership was about 5 percentage points higher among low-income individuals than high-income individuals, suggesting the relationship between income and car ownership pressure is not straightforward.
+				Among those who owned a vehicle, perceptions of forced car ownership were nearly identical across income groups. The proportion with near-neutral perceptions of car ownership was about 5 percentage points higher among individuals living in low-income households than in high-income households, suggesting the relationship between income and car ownership pressure is not straightforward.
 			</p>
 		"
 	/>
@@ -161,7 +161,7 @@
 </StatCardGrid>
 
 <div class="text">
-	<p class="data-note">*Low-income households are those that make less than $60,000 before tax (n = 200). *High-income households are those that make more than $120,000 before tax (n = 320).</p>
+	<p class="data-note">*Low-income households are those that make less than $60,000 before tax. *High-income households are those that make more than $120,000 before tax.</p>
 </div>
 
 <div class="text">
