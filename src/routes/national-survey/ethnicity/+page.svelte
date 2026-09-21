@@ -16,7 +16,6 @@
 	<title>Ethnicity | Mobilizing Justice National Survey</title>
 </svelte:head>
 
-<Password/>
 
 
 

@@ -16,7 +16,6 @@
 	<title>Immigration Status | Mobilizing Justice National Survey</title>
 </svelte:head>
 
-<Password/>
 
 
 

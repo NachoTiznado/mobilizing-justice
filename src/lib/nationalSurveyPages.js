@@ -15,13 +15,13 @@ export const nationalSurveyPages = [
 		slug: "ethnicity",
 		title: "Ethnicity",
 		text: "Transport poverty can vary by racial and Indigenous identity because access to transportation is shaped by broader patterns of social, economic, and spatial inequalities. In Canada, visible minority and Indigenous populations often experience distinct transportation barriers due to differences in income, housing location, employment opportunities, car access, transit service availability, and experiences of exclusion or discrimination.",
-		live: false
+		live: true
 	},
 	{
 		slug: "immigration",
 		title: "Immigration Status",
 		text: "Transport poverty can also vary by immigration status because transportation needs and constraints may change with settlement stage, employment conditions, social networks, housing location, and familiarity with local transportation systems. Recent immigrants may face distinct barriers as they navigate new job markets, education systems, services, and transit networks, while long-term immigrants may experience transportation challenges differently as their resources, routines, and neighbourhood ties evolve over time.",
-		live: false
+		live: true
 	},
 	{
 		slug: "age",
