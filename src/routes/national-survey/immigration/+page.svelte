@@ -61,32 +61,35 @@
 
 	<StatCardDonuts
 		icon={iconCar}
-		context="Fewer recent immigrants reported owning near-ideal number of cars"
-		sharedLabel="Reported owning near-ideal number of cars (%)"
+		context="Recent immigrants are less likely to report owning their ideal number of cars"
+		sharedLabel="Reported owning their ideal number of cars (%)"
 		stats={[
-			{ stat: 70, label: "Canadian born",       color: "var(--mjGreen)" },
+			{ stat: 70, label: "Canadian-born",       color: "var(--mjGreen)" },
 			{ stat: 43, label: "Recent immigrants*",   color: "var(--mjYellow)" },
 			{ stat: 61, label: "Long-term immigrants*", color: "var(--brandLightPurple)" }
 		]}
 		backText="
 			<p>
-				the share of recent immigrant households owning private vehicles is 17 percentage points lower than that of Canadian-born households and 19 percentage points lower than that of long-term immigrant households. Among those who have a driver's license and at least one car in the household, only 43% of recent immigrants reported that they own a near-ideal number of cars. This is in sharp contrast with nearly 70% of Canadian-born and 61% of long-term immigrants reporting the same. The share of recent immigrants reporting spending too much money on transportation is 11 percentage points higher than that of long-term immigrants and 8 percentage points higher than that of Canadian-born respondents. Furthermore, a higher share of recent immigrants expressed high dissatisfaction with their current transport conditions- 10 percentage points higher than that of Canadian-born respondents and 7 percentage points higher than long-term immigrants.
-			</p>
+				Among respondents with a driver’s licence and at least one car in their household, the share reporting an ideal number of cars was 27 percentage points lower among recent immigrants than among Canadian-born respondents and 18 points lower than among long-term immigrants.
+
+This finding is consistent with lower levels of private vehicle ownership among recent immigrant households. Their vehicle ownership rate was 17 percentage points lower than that of Canadian-born households and 19 points lower than that of long-term immigrant households.
+
+Recent immigrants were also more likely to report spending too much on transportation, with rates 11 percentage points higher than among long-term immigrants and 8 points higher than among Canadian-born respondents. They were also more likely to report high dissatisfaction with their current transportation conditions, by 10 percentage points compared with Canadian-born respondents and 7 points compared with long-term immigrants.
 		"
 	/>
 
 	<StatCardTwoSquares
 		icon={iconTrain}
-		context="Canadian born individuals are less likely to use public transit for commuting"
+		context="Canadian-born individuals are less likely to use public transit for commuting"
 		sharedLabel="Reported using public transit to work at least once a week (%)"
 		stats={[
-			{ stat: 24, color: "var(--mjGreen)",          label: "Canadian born" },
+			{ stat: 24, color: "var(--mjGreen)",          label: "Canadian-born" },
 			{ stat: 59, color: "var(--mjYellow)",         label: "Recent immigrants*" },
 			{ stat: 38, color: "var(--brandLightPurple)", label: "Long-term immigrants*" }
 		]}
 		backText="
 			<p>
-				Recent immigrants also reported walking, biking, and using public transit to commute to work at least once a week more frequently, and driving less frequently, than the other two groups. For example, the share of recent immigrants who reported taking public transit to work at least once a week is 35 percentage points higher than that of Canadian-born respondents. These patterns suggest that recent immigrants rely more heavily on public and active transportation for travelling to work, likely reflecting differences in vehicle access, settlement locations, and early adaptation to local transportation systems. Recent immigrants use public transit at a similarly high rate for trips to school. However, long-term immigrants bike more to school than the other two groups. For example, the share of long-term immigrants who bike to school at least once a week is 15 percentage points higher than that of recent immigrants and 21 percentage points higher than that of Canadian-born individuals.
+				Recent immigrants also reported walking, biking, and using public transit to commute to work at least once a week more frequently, and driving less frequently, than the other two groups. For example, the share of recent immigrants who reported taking public transit to work at least once a week is 35 percentage points higher than that of Canadian-born respondents. These patterns suggest that recent immigrants rely more heavily on public and active transportation for travelling to work. These differences may reflect variation in vehicle access, settlement locations, and early adaptation to local transportation systems. Recent immigrants use public transit at a similarly high rate for trips to school. However, long-term immigrants bike more to school than the other two groups. For example, the share of long-term immigrants who bike to school at least once a week is 15 percentage points higher than that of recent immigrants and 21 percentage points higher than that of Canadian-born individuals.
 			</p>
 		"
 	/>
@@ -98,7 +101,7 @@
 			{
 				label: "Agreed or strongly agreed that they have declined employment opportunities due to their transport situation (%)",
 				bars: [
-					{ label: "Canadian born",        value: 26 },
+					{ label: "Canadian-born",        value: 26 },
 					{ label: "Recent immigrants*",    value: 45 },
 					{ label: "Long-term immigrants*", value: 29 }
 				]
@@ -107,8 +110,7 @@
 		colors={['var(--mjGreen)', 'var(--mjYellow)', 'var(--brandLightPurple)']}
 		backText="
 			<p>
-				Recent immigrants reported higher agreement that transport constraints led them to decline employment opportunities. Nearly 45% of recent immigrants agreed or strongly agreed that transportation constraints led them to decline employment opportunities. These shares are approximately 19 and 16 percentage points higher than Canadian born and long-term immigrants, respectively. The patterns are similar when it comes to not pursuing education due to transport constraints. They also reported higher agreement that they had to miss commitments or appointments due to transportation issues, with a mean Likert score that was 19 points higher than that of Canadian-born respondents and 14 points higher than that of long-term immigrants.
-			</p>
+				Recent immigrants reported higher agreement that transport constraints led them to decline employment opportunities. Nearly 45% of recent immigrants agreed or strongly agreed that transportation constraints led them to decline employment opportunities. These shares are approximately 19 and 16 percentage points higher than Canadian-born and long-term immigrants, respectively. The patterns are similar when it comes to not pursuing education due to transport constraints. Recent immigrants also reported missing commitments or appointments more often because of transportation issues, with average scores 19 points higher than those of Canadian-born respondents and 14 points higher than those of long-term immigrants.
 		"
 	/>
 
@@ -119,7 +121,7 @@
 			{
 				label: "Agreed or strongly agreed that they feel forced to use transit (%)",
 				bars: [
-					{ label: "Canadian born",        value: 18 },
+					{ label: "Canadian-born",        value: 18 },
 					{ label: "Recent immigrants*",    value: 43 },
 					{ label: "Long-term immigrants*", value: 23 }
 				]
@@ -128,7 +130,7 @@
 		colors={['var(--mjGreen)', 'var(--mjYellow)', 'var(--brandLightPurple)']}
 		backText="
 			<p>
-				Recent immigrants report using active and public transportation more frequently than the other two groups, while also reporting a stronger sense that their use of these modes is forced. For example, over 43% of recent immigrants reported a high sense of perceived forced public transit use, whereas only 18% of Canadian-born and 23% of long-term immigrant respondents reported the same. Interestingly, recent immigrants were also more likely to perceive public transit as reliable, affordable, and time-saving. The share of recent immigrants who perceived public transit as very affordable is 13 percentage points higher than that of Canadian-born respondents and 8 percentage points higher than that of long-term immigrants. Similarly, the shares reporting transit as very reliable are 8 and 6 percentage points higher, respectively, while the shares reporting transit as very time-saving are 18 and 10 percentage points higher. These patterns suggest that recent immigrants may view public transit positively in terms of service attributes, yet still perceive their reliance on it as suboptimal.
+				Recent immigrants report using active and public transportation more frequently than the other two groups, while also reporting a stronger sense that their use of these modes is forced. For example, over 43% of recent immigrants reported a high sense of perceived forced public transit use, whereas only 18% of Canadian-born and 23% of long-term immigrant respondents reported the same. Interestingly, recent immigrants were also more likely to perceive public transit as reliable, affordable, and time-saving. The share of recent immigrants who perceived public transit as very affordable is 13 percentage points higher than that of Canadian-born respondents and 8 percentage points higher than that of long-term immigrants. Similarly, the shares reporting transit as very reliable are 8 and 6 percentage points higher, respectively, while the shares reporting transit as very time-saving are 18 and 10 percentage points higher. These patterns suggest that recent immigrants may view public transit positively in terms of service attributes, while nevertheless perceiving their reliance on it as a constraint.
 			</p>
 		"
 	/>
@@ -136,7 +138,7 @@
 </StatCardGrid>
 
 <div class="text">
-	<p class="data-note">*Recent immigrant refers to ... (text to be filled in later). Long-term immigrant refers to ... (text to be filled in later)</p>
+	<p class="data-note">*Recent immigrant refers to a person who landed in Canada during the five years preceding the questionnaire application in 2024. Long-term immigrant refers to an immigrant who landed in Canada more than five years before the questionnaire application in 2024</p>
 </div>
 
 
