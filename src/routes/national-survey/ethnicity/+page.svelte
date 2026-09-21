@@ -64,23 +64,23 @@
 		context="Transit pass ownership is highest among visible minorities"
 		sharedLabel="Reported owning a transit pass (%)"
 		stats={[
-			{ stat: "14%", label: "Among white individuals", color: "var(--mjGreen)" },
+			{ stat: "14%", label: "Among White individuals", color: "var(--mjGreen)" },
 			{ stat: "35%", label: "Among visible minority individuals", color: "var(--mjYellow)" },
-			{ stat: "26%", label: "Among indigenous individuals", color: "var(--brandLightPurple)" }
+			{ stat: "26%", label: "Among Indigenous individuals", color: "var(--brandLightPurple)" }
 		]}
 		backText="
 			<p>
-				Transit pass ownership is considerably higher among visible minorities and Indigenous individuals. The share of transit pass ownership is 21 percentage points higher among visible minorities and 12 percentage points higher among Indigenous individuals compared with White individuals. 
+				Transit pass ownership was considerably higher among visible minority and Indigenous respondents than among White respondents. Ownership was 21 percentage points higher among visible minority respondents and 12 percentage points higher among Indigenous respondents.
 			</p>
 			<p>
-				While private vehicle ownership rates are largely similar among White, visible minority, and Indigenous populations, visible minority and Indigenous individuals reported using taxis, rideshare services, and paratransit more frequently than white individuals. For instance, while just over 3% of white individuals reported using taxis or rideshare services to commute to work at least once a week, nearly 11% of visible minorities and 22% of Indigenous respondents reported doing so. This discrepancy is noteworthy given the similar patterns of private vehicle ownership across these groups and may suggest that vehicle ownership alone does not fully meet individuals’ travel needs.
+				While private vehicle ownership rates are largely similar among White, visible minorities, and Indigenous populations, visible minority and Indigenous individuals reported using taxis, rideshare services, and paratransit more frequently than White individuals. For instance, while just over 3% of White individuals reported using taxis or rideshare services to commute to work at least once a week, nearly 11% of visible minority and 22% of Indigenous respondents reported doing so. This discrepancy is noteworthy given the similar patterns of private vehicle ownership across these groups and may suggest that vehicle ownership alone does not fully meet individuals’ travel needs.
 			</p>
 		"
 	/>
 
 	<StatCardDonuts
 		icon={iconBuilding}
-		context="Visible minorities and Indigenous individuals are affected by transportation and housing affordability more than White individuals"
+		context="Visible minority and Indigenous respondents report greater transportation and housing affordability pressures"
 		sharedLabel="Reported spending more money on transport than they can afford (%)"
 		stats={[
 			{ stat: 35, label: "White individuals",            color: "var(--mjGreen)" },
@@ -89,14 +89,14 @@
 		]}
 		backText="
 			<p>
-				A higher share of visible minorities and Indigenous individuals also reported spending more money on both housing and transport than they can afford. The gap is specifically noticeable between white and Indigenous respondents. The share of Indigenous respondents reporting high housing unaffordability is 16 percentage points higher, and the share reporting high transport unaffordability is 11 percentage points higher. Visible minority and Indigenous respondents also reported lower dwelling and transportation satisfaction, with mean Likert dwelling satisfaction ratings 7 and 10 points lower and mean Likert transportation satisfaction ratings 6 and 8 points lower, respectively, than those of white respondents.
+				A higher share of visible minority and Indigenous respondents also reported housing and transport unaffordability. The gap was particularly pronounced between White and Indigenous respondents. Among Indigenous respondents, the share reporting spending more money on housing than they can afford was 16 percentage points higher, while the share reporting spending more money on transport than they can afford was 11 percentage points higher. Visible minority and Indigenous respondents also reported lower dwelling and transportation satisfaction. Compared with White respondents, their average dwelling satisfaction was 7 and 10 points lower, respectively, while their average transportation satisfaction was 6 and 8 points lower.
 			</p>
 		"
 	/>
 
 	<StatCardTwoSquares
 		icon={iconBike}
-		context="White individuals are less likely to bike to work"
+		context="White individuals are more likely to report never biking to work"
 		sharedLabel="Respondents who reported never biking to work (%)"
 		stats={[
 			{ stat: 81, color: "var(--mjGreen)",          label: "White individuals" },
@@ -105,14 +105,14 @@
 		]}
 		backText="
 			<p>
-				In contrast to the common perception that a standard cyclist is a white guy in expensive gear, our findings show that visible minorities and Indigenous individuals tend to bike more than their white counterparts for both work and school travel. The share of white respondents who reported never biking to work, even after owning at least one bike or having previously used bikeshare, is nearly 10 percentage points higher than that of visible minorities and 26 percentage points higher than that of Indigenous individuals. 
+				Contrary to expectations that cycling participation may be higher among White respondents, our findings show that visible minority and Indigenous individuals reported higher cycling participation than their White counterparts for both work and school travel. The share of White respondents who reported never biking to work, even after owning at least one bike or having previously used bikeshare, is nearly 10 percentage points higher than that of visible minority and 26 percentage points higher than that of Indigenous individuals. 
 			</p>
 		"
 	/>
 
 	<StatCardBars
 		icon={iconBuilding}
-		context="Transportation constraints may limit employment opportunities more for visible minorities and Indigenous people"
+		context="Transportation constraints may limit employment opportunities more for visible minorities and Indigenous respondents"
 		groups={[
 			{
 				label: "Agreed or strongly agreed that transportation constraints led them to decline employment opportunities (%)",
@@ -126,7 +126,7 @@
 		colors={['var(--mjGreen)', 'var(--mjYellow)', 'var(--brandLightPurple)']}
 		backText="
 			<p>
-				Visible minority and Indigenous respondents reported higher levels of employment-related impacts from transportation constraints. Nearly 37% of visible minority respondents and 43% of Indigenous respondents agreed or strongly agreed that transportation constraints led them to decline employment opportunities. These shares are approximately 15 and 24 percentage points higher, respectively, than the share among White respondents. A similar pattern is observed for education-related impacts, with visible minority and Indigenous respondents more likely than White respondents to report not pursuing educational opportunities because of transportation difficulties. Together, these findings suggest that transportation barriers may reinforce existing inequities by limiting access to both immediate employment opportunities and longer-term educational pathways.
+				Visible minority and Indigenous respondents reported higher levels of employment-related impacts from transportation constraints. Nearly 37% of visible minority respondents and 43% of Indigenous respondents agreed or strongly agreed that transportation constraints led them to decline employment opportunities. These shares are approximately 15 and 24 percentage points higher, respectively, than the share among White respondents. A similar pattern is observed for education-related impacts, with visible minority and Indigenous respondents more likely than White respondents to report not pursuing educational opportunities because of transportation difficulties. These findings suggest that transportation barriers may reinforce existing inequities by limiting access to both immediate employment opportunities and longer-term educational pathways.
 			</p>
 		"
 	/>
